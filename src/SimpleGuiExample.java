@@ -1,8 +1,8 @@
 import ArkanoidClasses.Game;
 import ArkanoidClasses.GameEnvironment;
-import Collidables.Ball;
-import Collidables.Block;
-import Collidables.Velocity;
+import GameObjects.Ball;
+import GameObjects.Block;
+import GameObjects.Velocity;
 import Geometry.Line;
 import Geometry.Point;
 import Geometry.Rectangle;

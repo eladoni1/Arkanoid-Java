@@ -3,6 +3,7 @@ package ArkanoidClasses;
 import Geometry.Line;
 import Geometry.Point;
 import Interfaces.Collidable;
+import Interfaces.Sprite;
 
 import java.util.List;
 
@@ -13,9 +14,8 @@ public class GameEnvironment {
         collidables = new java.util.ArrayList<>();
     }
     // add the given collidable to the environment.
-    public void addCollidable(Collidable c) {
-        collidables.add(c);
-    }
+    public void addCollidable(Collidable c) { if ( c!=null ) collidables.add(c); }
+    public void removeCollidable(Collidable c) { if (c!= null) collidables.remove(c); }
 
     // Assume an object moving from line.start() to line.end().
     // If this object will not collide with any of the collidables

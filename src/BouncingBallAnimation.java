@@ -1,5 +1,5 @@
-import Collidables.Ball;
-import Collidables.Velocity;
+import GameObjects.Ball;
+import GameObjects.Velocity;
 import Geometry.Point;
 import biuoop.DrawSurface;
 import biuoop.GUI;
